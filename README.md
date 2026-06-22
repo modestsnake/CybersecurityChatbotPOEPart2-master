@@ -179,20 +179,20 @@ Check that DatabaseHelper.cs exists in the GUI project
 
 References
 Freeman, E. and Robson, E. (2021) Head First Design Patterns: Building Extensible and Maintainable Object-Oriented Software. 2nd edn. Sebastopol: O'Reilly Media
-Microsoft (2024) SoundPlayer Class — System.Media. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.media.soundplayer [Accessed 12 May 2026].
-Microsoft (2024) Windows Presentation Foundation (WPF) for .NET. Available at: https://learn.microsoft.com/en-us/dotnet/desktop/wpf [Accessed 12 May 2026].
-National Cyber Security Centre (NCSC) (2023) Phishing Attacks: Defending Your Organisation. Available at: https://www.ncsc.gov.uk/guidance/phishing [Accessed 13 May 2026].
+Microsoft (2024) SoundPlayer Class — System.Media. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.media.soundplayer [Accessed 20 Jun 2026].
+Microsoft (2024) Windows Presentation Foundation (WPF) for .NET. Available at: https://learn.microsoft.com/en-us/dotnet/desktop/wpf [Accessed 20 Jun 2026].
+National Cyber Security Centre (NCSC) (2023) Phishing Attacks: Defending Your Organisation. Available at: https://www.ncsc.gov.uk/guidance/phishing [Accessed 20 Jun 2026].
 Nielsen, J. (1994) Usability Engineering. San Francisco: Morgan Kaufmann 
 Picard, R.W. (1997) Affective Computing. Cambridge: MIT Press.
 Russell, S. and Norvig, P. (2021) Artificial Intelligence: A Modern Approach. 4th edn. Hoboken: Pearson.
-SANS Institute (2023) Security Awareness Training: Building a Security Culture. Available at: https://www.sans.org/security-awareness-training [Accessed 14 May 2026].
+SANS Institute (2023) Security Awareness Training: Building a Security Culture. Available at: https://www.sans.org/security-awareness-training [Accessed 21 Jun 2026].
 Weizenbaum, J. (1966) 'ELIZA — A Computer Program for the Study of Natural Language Communication Between Man and Machine', *Communications of the ACM*, 9(1), pp. 36–45.
-adegeo (2026). Styles and templates - WPF. [online] Microsoft.com. Available at: https://learn.microsoft.com/en-us/dotnet/desktop/wpf/controls/styles-templates-overview [Accessed 14 May 2026].
+adegeo (2026). Styles and templates - WPF. [online] Microsoft.com. Available at: https://learn.microsoft.com/en-us/dotnet/desktop/wpf/controls/styles-templates-overview [Accessed 21 Jun 2026].
 jwmsft (2024). ResourceDictionary and XAML resource references - Windows apps. [online] Microsoft.com. Available at: https://learn.microsoft.com/en-us/windows/apps/develop/platform/xaml/xaml-resource-dictionary [Accessed 14 May 2026].
-‌Picard, R. (n.d.). Affective Computing. [online] Available at: https://arl.human.cornell.edu/linked%20docs/Picard%20Affective%20Computing.pdf [Accessed 14 May 2026].
+‌Picard, R. (n.d.). Affective Computing. [online] Available at: https://arl.human.cornell.edu/linked%20docs/Picard%20Affective%20Computing.pdf [Accessed 21 Jun 2026].
 Sans.org. (2025). SANS 2023 Security Awareness Report: Managing Human Risk | SANS Institute. [online] Available at: https://www.sans.org/blog/sans-2023-security-awareness-report-managing-human-risk [Accessed 14 May 2026].
 
-‌ NCSC (2023). NCSC Annual Review 2023. [online] www.ncsc.gov.uk. Available at: https://www.ncsc.gov.uk/collection/annual-review-2023 [Accessed 14 May 2026].
+‌ NCSC (2023). NCSC Annual Review 2023. [online] www.ncsc.gov.uk. Available at: https://www.ncsc.gov.uk/collection/annual-review-2023 [Accessed 22 Jun 2026].
 
 ‌
 
