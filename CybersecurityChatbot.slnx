@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Part1_CybersecurityChatbot/">
+    <Project Path="Part1_CybersecurityChatbot/CybersecurityChatbot.csproj" />
+  </Folder>
+  <Project Path="CybersecurityChatbot.GUI/CybersecurityChatbot.GUI.csproj" />
+</Solution>

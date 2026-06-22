@@ -1,0 +1,100 @@
+﻿<Window x:Class="CybersecurityChatbot.GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CyberBot — Cybersecurity Awareness Chatbot"
+        Height="700" Width="850"
+        MinHeight="500" MinWidth="600"
+        Background="#0D0D0D"
+        Loaded="Window_Loaded">
+
+    <Window.Resources>
+        <Style x:Key="BotBubble" TargetType="Border">
+            <Setter Property="Background" Value="#1A1A2E"/>
+            <Setter Property="BorderBrush" Value="#00FF88"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="Padding" Value="10,7"/>
+            <Setter Property="Margin" Value="0,4,60,4"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+        </Style>
+        <Style x:Key="UserBubble" TargetType="Border">
+            <Setter Property="Background" Value="#1E3A1E"/>
+            <Setter Property="BorderBrush" Value="#FFD700"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="Padding" Value="10,7"/>
+            <Setter Property="Margin" Value="60,4,0,4"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+        </Style>
+        <Style x:Key="SendButton" TargetType="Button">
+            <Setter Property="Background" Value="#00FF88"/>
+            <Setter Property="Foreground" Value="#0D0D0D"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="18,8"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#00CC70"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="InputBox" TargetType="TextBox">
+            <Setter Property="Background" Value="#1A1A2E"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#00FF88"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="10,8"/>
+            <Setter Property="CaretBrush" Value="#00FF88"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="2"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="#0A0A1A" Padding="16,12">
+            <TextBlock FontFamily="Consolas, Courier New" FontSize="11"
+                       Foreground="#00FF88" TextAlignment="Center"
+                       Text="██████╗██╗   ██╗██████╗ ███████╗██████╗&#x0a;██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗&#x0a;██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝&#x0a;██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗&#x0a;╚██████╗   ██║   ██████╔╝███████╗██║  ██║&#x0a; ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝&#x0a;&#x0a;       🔒  CYBERSECURITY AWARENESS BOT  🔒"/>
+        </Border>
+
+        <Rectangle Grid.Row="1" Fill="#00FF88" Opacity="0.4"/>
+
+        <ScrollViewer Grid.Row="2"
+                      x:Name="ChatScrollViewer"
+                      VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Disabled"
+                      Padding="12,8"
+                      Background="#0D0D0D">
+            <StackPanel x:Name="ChatPanel" Orientation="Vertical"/>
+        </ScrollViewer>
+
+        <Rectangle Grid.Row="3" Fill="#00FF88" Opacity="0.4"/>
+
+        <Grid Grid.Row="4" Background="#0A0A1A">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Grid.Column="0"
+                     x:Name="InputTextBox"
+                     Style="{StaticResource InputBox}"
+                     Margin="12,10,6,10"
+                     KeyDown="InputTextBox_KeyDown"
+                     VerticalContentAlignment="Center"/>
+            <Button Grid.Column="1"
+                    Content="Send"
+                    Style="{StaticResource SendButton}"
+                    Margin="0,10,12,10"
+                    Click="SendButton_Click"/>
+        </Grid>
+    </Grid>
+</Window>
